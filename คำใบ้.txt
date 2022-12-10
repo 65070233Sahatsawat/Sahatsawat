@@ -1,0 +1,66 @@
+word_dict = {
+    'append()':
+        {'category': 'list method',
+         'hints': ['สามารถเพิ่มค่าเข้าไปในlistได้']
+        },
+    'insert()':
+        {'category': 'list method',
+         'hints': ['สามารถเเทรกค่าเข้าไปในlistตามตำเเหน่งที่ต้องการได้']
+        },
+    'sort()':
+        {'category': 'list method',
+         'hints': ['สามารถเเรียงลำดับค่าในlistได้']
+        },
+    'index()':
+        {'category': 'list method',
+         'hints': ['สามารถระบุตำเเหน่งของค่าที่ต้องการในlistได้']
+        },
+    'capitalize()':
+        {'category': 'string method',
+         'hints': ['สามารถเปลี่ยนตัวอักษรตัวเเรกเป็นตัวพิมพ์ใหญ่ได้']
+        },
+    'find()':
+        {'category': 'string method',
+         'hints': ['สามารถระบุตำเเหน่งของค่าที่ต้องการได้']
+        },
+    'isnumeric()':
+        {'category': 'string method',
+         'hints': ['จะคืนค่าTrueถ้าหากอักขระทุกตัวมนstringเป็นตัวเลข']
+        },
+    'lower()':
+        {'category': 'string method',
+         'hints': ['เปลี่ยนstringทุกตัวเป็นตัวพิมพ์เล็ก']
+        },
+    'upper()':
+        {'category': 'string method',
+         'hints': ['เปลี่ยนstringทุกตัวเป็นตัวพิมพ์ใหญ่']
+        },
+    'swapcase()':
+        {'category': 'string method',
+         'hints': ['เปลี่ยนstringที่เป็นตัวพิมพ์เล็กเป็นตัวพิมพ์ใหญ่เเละเปลี่ยนตัวพิมพ์ใหญ่เป็นตัวพิมพ์เล็ก']
+        },
+    'get()':
+        {'category': 'dict method',
+         'hints': ['คืนค่าitemของkeyที่ระบุ']
+        },
+    'items()':
+        {'category': 'dict method',
+         'hints': ['คืนค่าออกมาเป็นlistที่ประกอบไปด้วยtupleที่มีkeysเเละitemsอยู่กันเป็นคู่']
+        },
+    'keys()':
+        {'category': 'dict method',
+         'hints': ['คืนค่าออกมาเป็นkeysของdictionaryที่ระบุโดยออกมาในรูปเเบบlist']
+        },
+    'pop()':
+        {'category': 'dict method',
+         'hints': ['ลบkeyเเละitemของkeyด้วยค่าของkeyที่ระบุ']
+        },
+    'update()':
+        {'category': 'dict method',
+         'hints': ['เพิ่มค่าในdictionaryตามkeysเเละitemsที่ระบุ']
+        },
+    'values()':
+        {'category': 'dict method',
+         'hints': ['คืนค่าออกมาเป็นitemsทุกตัวที่อยู่ในdict']
+        },
+    }
