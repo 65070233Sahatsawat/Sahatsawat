@@ -18,7 +18,7 @@ correct_sound = pygame.mixer.Sound('correct.wav')
 wrong_sound = pygame.mixer.Sound('buzzer.wav')
 pygame.mixer.music.play(-1)
 pygame.mixer.music.set_volume(0.3)
-correct_sound.set_volume(0.5)
+correct_sound.set_volume(0.8)
 wrong_sound.set_volume(0.2)
 #สถานะเกม
 game_end = False #เริ่มต้นเกมยังไม่จบ
